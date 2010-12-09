@@ -9,7 +9,7 @@ ignore_www_zone = getattr(settings, 'IGNORE_WWW_ZONE', True)
 ignore_server_port = getattr(settings, 'IGNORE_SERVER_PORT', True)
 
 class SiteProviderMiddleware(object):
-    def process_request(self, request:
+    def process_request(self, request):
 
         # Prevent future version collisions
         if hasattr(request, 'site'):
