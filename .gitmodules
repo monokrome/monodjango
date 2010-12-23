@@ -4,3 +4,6 @@
 [submodule "navigation"]
 	path = navigation
 	url = https://github.com/monokrome/django-navigation.git
+[submodule "galleries"]
+	path = galleries
+	url = https://github.com/monokrome/django-galleries.git
