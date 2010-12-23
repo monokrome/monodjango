@@ -7,3 +7,6 @@
 [submodule "galleries"]
 	path = galleries
 	url = https://github.com/monokrome/django-galleries.git
+[submodule "aliases"]
+	path = aliases
+	url = https://github.com/monokrome/django-aliases.git
