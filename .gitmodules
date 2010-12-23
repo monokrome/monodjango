@@ -13,3 +13,6 @@
 [submodule "webbugger"]
 	path = webbugger
 	url = https://github.com/monokrome/django-webbugger.git
+[submodule "contacts"]
+	path = contacts
+	url = https://github.com/monokrome/django-contacts.git
