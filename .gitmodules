@@ -10,3 +10,6 @@
 [submodule "aliases"]
 	path = aliases
 	url = https://github.com/monokrome/django-aliases.git
+[submodule "webbugger"]
+	path = webbugger
+	url = https://github.com/monokrome/django-webbugger.git
