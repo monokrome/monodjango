@@ -1,3 +1,6 @@
 [submodule "news"]
 	path = news
 	url = https://github.com/monokrome/django-news.git
+[submodule "navigation"]
+	path = navigation
+	url = https://github.com/monokrome/django-navigation.git
