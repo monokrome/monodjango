@@ -16,3 +16,6 @@
 [submodule "contacts"]
 	path = contacts
 	url = https://github.com/monokrome/django-contacts.git
+[submodule "themes"]
+	path = themes
+	url = https://github.com/monokrome/django-themes.git
