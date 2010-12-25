@@ -8,7 +8,7 @@ except ImportError:
     from setuptools.command.test import test
 
 setup(name = 'monodjango',
-      description = 'A collection of django tools that I have created, which don't make sense as full projects.',
+      description = 'A collection of django tools that I have created, which don''t make sense as full projects.',
       author = 'Brandon R. Stoner',
       author_email = 'monokrome@monokro.me',
       version = '0.01',
