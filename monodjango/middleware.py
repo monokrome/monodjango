@@ -19,10 +19,10 @@ class SiteProviderMiddleware(object):
 
         # Remove the www from our domain unless requested otherwise
         if ignore_www_zone:
-            hostname = re.replace(r'^w{2,3}\d*\.', '', hostname)
+            hostname = re.sub(r'^w{2,3}\d*\.', '', hostname)
 
         if ignore_server_port:
-            hostname = re.replace(r':\d*$', '', hostname)
+            hostname = re.sub(r':\d*$', '', hostname)
 
         try:
             # Attempt to get a site based on the current domain
